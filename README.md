@@ -1,18 +1,22 @@
 # Java AWS Inventory System
+A simple inventory management backend built with Java. This is my learning project for Microsoft SDE preparation.
 
-A scalable inventory management backend built with Java & Spring Boot and deployed on AWS.
+### Features
+- Add new items to inventory
+- View all items
+- In-memory storage (will connect to MySQL + AWS)
 
-## Tech Stack
-- Java 17, Spring Boot, Spring Security (JWT)
-- MySQL (AWS RDS), AWS EC2, S3
-- REST APIs
+### Tech Stack
+- Java, Spring Boot (coming soon)
+- MySQL, AWS EC2/S3 (planned)
 
-## Features
-- User Authentication with JWT
-- CRUD Operations for Inventory
-- Image Upload to S3
-- Deployed on EC2
+### How to Run
+javac Item.java InventoryController.java
+java InventoryController
 
-## How to Run
-```bash
-mvn spring-boot:run
+### Roadmap
+- [x] Core Java classes
+- [ ] Connect MySQL Database
+- [ ] Deploy on AWS EC2
+
+Made by Sahil Badole - Final Year Student, Nagpur
