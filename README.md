@@ -1,2 +1,18 @@
-# java-aws-inventory-system
-Scalable Inventory Management System built with Java, Spring Boot, MySQL and deployed on AWS EC2 &amp; S3 | JWT Auth, REST APIs
+# Java AWS Inventory System
+
+A scalable inventory management backend built with Java & Spring Boot and deployed on AWS.
+
+## Tech Stack
+- Java 17, Spring Boot, Spring Security (JWT)
+- MySQL (AWS RDS), AWS EC2, S3
+- REST APIs
+
+## Features
+- User Authentication with JWT
+- CRUD Operations for Inventory
+- Image Upload to S3
+- Deployed on EC2
+
+## How to Run
+```bash
+mvn spring-boot:run
